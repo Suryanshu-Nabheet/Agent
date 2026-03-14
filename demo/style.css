@@ -1,0 +1,65 @@
+:root {
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  --card-bg: rgba(30, 41, 59, 0.7);
+}
+
+body {
+  background: var(--bg-gradient) !important;
+  color: #f8fafc !important;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+}
+
+.gradio-container {
+  background: transparent !important;
+  border: none !important;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  background: linear-gradient(to right, #818cf8, #c084fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+p {
+    text-align: center;
+    color: #94a3b8;
+}
+
+.contain {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+#duplicate-button {
+  display: none; /* Clean up UI */
+}
+
+/* Chat interface styling */
+.gr-button-primary {
+  background: var(--primary) !important;
+  border: none !important;
+  transition: all 0.2s ease;
+}
+
+.gr-button-primary:hover {
+  background: var(--primary-hover) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+footer {
+    display: none !important;
+}
