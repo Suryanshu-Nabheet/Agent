@@ -1,6 +1,3 @@
-<p align="center">
-<img width="1000px" alt="Agent 1.0" src="pictures/logo.png">
-</p>
 <p align="center"><a href="https://github.com/Suryanshu-Nabheet/Agent">[GitHub Project]</a> | <a href="https://github.com/Suryanshu-Nabheet/Agent.git">[Clone Agent 1.0]</a> | <a href="https://github.com/Suryanshu-Nabheet">[Founder: Suryanshu Nabheet]</a></p>
 <p align="center">
   <b>Agent 1.0: Coding Agent</b>
